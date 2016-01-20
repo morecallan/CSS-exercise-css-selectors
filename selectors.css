@@ -22,3 +22,38 @@ a.disabled {
 .active {
     color: yellow;
 }
+
+.parent div div:nth-of-type(1){
+    color: red;
+}
+
+.parent div h4:nth-of-type(1){
+    background-color: red;
+}
+
+.parent div div:nth-of-type(2){
+    color: blue;
+}
+
+.parent div h4:nth-of-type(2){
+    background-color: blue;
+}
+
+/*Selects child of parent*/
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 4px;
+} 
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+input {
+    height: 21px;
+    padding: 0;
+    margin: 0;
+    border: 2px solid black;
+}
+
