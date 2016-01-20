@@ -1,0 +1,24 @@
+header {
+    border: 1px solid royalblue;
+    padding: 20px;
+}
+
+header li {
+    float: right;
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.disabled {
+    color: gray;
+}
+
+a.disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
